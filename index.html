@@ -32,8 +32,8 @@
   <title>Doyoun Jung</title>
 </head>
 
-<main>
-  <!---------------- HEADER ---------------->
+<body>
+  <!-- ------------- HEADER -------------------->
   <header class="header" id="header">
     <nav class="nav container navbar-expand-lg">
       <a href="#" class="nav__logo navbar-brand ml-3">Doyoun Jung</a>
@@ -49,32 +49,38 @@
               <i class="uil uil-estate nav__icon"></i>Home
             </a>
           </li>
+
           <li class="nav__item">
             <a href="#about" class="nav__link">
               <i class="uil uil-user nav__icon"></i>About
             </a>
           </li>
+
           <li class="nav__item">
             <a href="#skills" class="nav__link">
               <i class="uil uil-file nav__icon"></i>Skills
             </a>
           </li>
+
           <li class="nav__item">
-            <a href="#qualifications" class="nav__link">
+            <a href="#qualification" class="nav__link">
               <i class="uil uil-diary nav__icon"></i>Qualification
             </a>
           </li>
+
           <li class="nav__item">
             <a href="#portfolio" class="nav__link">
               <i class="uil uil-scenery nav__icon"></i>Portfolio
             </a>
           </li>
+
           <li class="nav__item">
             <a href="#contact" class="nav__link">
               <i class="uil uil-message nav__icon"></i>Contact Us
             </a>
           </li>
         </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
       </div>
 
       <div class="nav__btns">
@@ -87,41 +93,829 @@
       </div>
     </nav>
   </header>
-  <!-- ============= MAIN ============= -->
+
+  <!-- ============== MAIN =============== -->
   <main class="main">
 
-    <!---------------- HOME ---------------->
+    <!-- ------------- HOME -------------------->
     <section class="home section" id="home">
+      <div class="home__container container grid">
 
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/doyunjeong/" target="_blank" class="home__social-icon" id="myLinkedIn">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+
+            <!-- <a href="" target="_blank" class="home__social-icon" id="myInstagram">
+              <i class="uil uil-instagram"></i>
+            </a> -->
+
+            <a href="https://github.com/ooyuo" target="_blank" class="home__social-icon" id="myGithub">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <!-- <a href="" target="_blank" class="home__social-icon" id="myFacebook">
+              <i class="uil uil-facebook-f"></i>
+            </a> -->
+
+            <a href="https://ooyuolog.tistory.com/" target="_blank" class="home__social-icon" id="myTwitter">
+              <i class="uil uil-blogger"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__data">
+          <small class="home__welcome s-color"> Welcome to my Portfolio Website! </small>
+          <h1 class="home__title"> Hello I'm </h1>
+          <div id="typewriter"></div>
+          <h3 class="home__subtitle" id="home-bio">An engineer enthusiast about technology and web development.
+            Passionate on learning new.
+          </h3>
+          <a href="#contact" class="button button--flex">
+            Contact Me <i class="uil uil-message button__icon"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="home__scroll">
+        <a href="#about" class="home__scroll-button button--flex">
+          <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+          <span class="home__scroll-name"> Scroll Down </span>
+          <i class="uil uil-arrow-down home__scroll-arrow"></i>
+        </a>
+      </div>
     </section>
-    <!---------------- ABOUT ME ---------------->
+
+    <!-- ------------- ABOUT ME -------------------->
     <section class="about section" id="about">
+      <h2 class="section__title">About</h2>
+      <span class="section__subtitle"> My Introduction </span>
 
+      <div class="about__container container grid">
+        <img src="img/doyounjung.jpg" alt="my achievement photo" class="about__img">
+
+        <div class="about__data">
+          <p class="about__description" id="home-about">
+            Web developer, with extensive knowledge and years of experience, working with web technologies and
+            designing. Delivering quality works. Professionally I am an Electrical engineer as well.
+          </p>
+        </div>
+
+        <div class="about__info">
+          <div>
+            <span class="about__info-title"> 03+ </span>
+            <span class="about__info-name"> Years <br> Experience </span>
+          </div>
+
+          <div>
+            <span class="about__info-title"> 06+ </span>
+            <span class="about__info-name"> Completed <br> Projects </span>
+          </div>
+
+          <div>
+            <span class="about__info-title"> 01+ </span>
+            <span class="about__info-name"> Companies <br> Worked </span>
+          </div>
+        </div>
+
+        <div class="about__buttons">
+          <a href="assets/file/Doyoun_Jung_Resume.PDF" download="DoyounJung_Resume" target="_blank"
+            class="button button--flex">
+            Download CV <i class="uil uil-download-alt button__icon"></i>
+          </a>
+        </div>
+      </div>
     </section>
-    <!---------------- SKILLS---------------->
+
+    <!-- ------------- Skills-------------------->
     <section class="skills section" id="skills">
+      <h2 class="section__title"> Skillset </h2>
+      <span class="section__subtitle"> My skillsets </span>
 
+      <div class="skills__container container grid">
+        <div class="row" id="skillset_container">
+          <!-- Skill 1 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831745/skillset%20logos/HTML_5-595b40b65ba036ed117d4260_fnyo1z.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> HTML </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 2 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/Css3-595b40b65ba036ed117d3eb8_jiqifm.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> CSS </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 3 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/2560px-Sass_Logo_Color.svg.png"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> Sass </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 4 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831744/skillset%20logos/javascript-seeklogo.com_wthmgd.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> Javascript </h2>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 5 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> ES6 </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 6 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> TypeScript </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 7 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> React </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 8 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/bootstrap-5-seeklogo.com_rz32ih.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> Bootstrap </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 8 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/sas-institute-logo-svg-vector.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> SAS </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 9 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831743/skillset%20logos/git-seeklogo.com_eqv1dl.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> Git </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 10 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831742/skillset%20logos/github-seeklogo.com_yhhbou.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> Github </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 11 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627831746/skillset%20logos/visual-studio-code-seeklogo.com_ps85dh.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> VSCode </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 12 -->
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+              <div class="imgBx">
+                <img
+                  src="https://res.cloudinary.com/bjha/image/upload/v1627837663/skillset%20logos/Microsoft_Office_logo__282019_E2_80_93present_29_pswha1.svg"
+                  alt="HTML logo">
+              </div>
+              <div class="contentBx">
+                <h4> Office </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <!---------------- QUALIFICATIONS (Education AND EXPERIENCE)---------------->
-    <section class="qualification section" id="qualifications">
+    <!-- ------------- QUALIFICATIONS (Education and Experience) -------------------->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title"> Qualification </h2>
+      <span class="section__subtitle"> My persoanl Journey </span>
 
+      <div class="qualification__container container">
+
+        <div class="row mt-lg-0">
+          <!-- Education -->
+          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+            <div class="qualification__button button--flex">
+              <i class="uil uil-graduation-cap qualification__icon"></i> Education
+            </div>
+
+            <div id="education_timeline">
+              <div class="container py-2">
+
+                <!-- Timeline item 1 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2022
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">
+                              React JS Master Class </h3>
+                            <p class="qualification__subtitle"> Nomad Coders </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> Built Typescript, Recoil, Framer Motion skills </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2020
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">
+                              VanillaJS Bootcamp </h3>
+                            <p class="qualification__subtitle"> Nomad Coders </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> Built Vanilla JavaScript skills </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Timeline item 2 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2019
+                        <div>~ 2020</div>
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title"> Bachelor in Engineering </h3>
+                            <p class="qualification__subtitle"> The Cyber University of Korea </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> Software Engineering B.S. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2018
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title">
+                              Cloud computing-based web programming developer training </h3>
+                            <p class="qualification__subtitle"> Seoul Newdeal </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle">
+                              Cloud computing-based web programming developer training and employment process 2nd term
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline item 3 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2013
+                        <div>~ 2017</div>
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title"> Associate Degree in Engineering</h3>
+                            <p class="qualification__subtitle">Hanyang Woman's University</p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle"> Associate Degree in Computer Information </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <!-- Timeline item end -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__start">
+                          <i class="uil uil-rocket qualification__start-icon"></i>
+                        </span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+            <div class="qualification__button button--flex">
+              <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+            </div>
+
+            <div id="expreience_timeline">
+              <div class="container py-2">
+                <!-- Timeline item 1 -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+
+                    <h5>
+                      <span class="badge qualification__calendar">
+                        <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                        2019
+                        <div>~ 2022</div>
+                      </span>
+                    </h5>
+
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__line"></span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                    <div class="card education-card transparent_card mirror-face shadow2">
+                      <div class="card-body">
+                        <div class="task">
+                          <div class="abstract">
+                            <h3 class="qualification__title"> Front-end Developer / Data Analysis </h3>
+                            <p class="qualification__subtitle"> Bogo Information System </p>
+                          </div>
+                          <div class="details">
+                            <p class="qualification__subtitle">
+                              <div class="qualification__subtitle small-description">> Owned more than 6 projects from
+                                initial research and conceptual design
+                                through testing and implementation phases</div>
+                              <div class="qualification__subtitle small-description">> Planned and engineered RESTful
+                                web services to manipulate dynamic
+                                datasets</div>
+                              <div class="qualification__subtitle small-description">> Managed full-cycle design tasks,
+                                handling phases from conception to
+                                completion while maintaining guidelines throughout</div>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Timeline item end -->
+                <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                    <div class="row h-50 qualification__journey">
+                      <div class="col">
+                        <span class="qualification__start">
+                          <i class="uil uil-rocket qualification__start-icon"></i>
+                        </span>
+                      </div>
+                      <div class="col">&nbsp;</div>
+                    </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!---------------- PORTFOLIO ---------------->
+    <!-- ------------- PORTFOLIO -------------------->
     <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle"> My most recent works </span>
+
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+
+          <!-- For portfolio item 1 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./img/personal recommendation.jpg" alt="Twitter type SNS ">
+            </div>
+
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> APRIL 2021 ~ MARCH 2022</span>
+              <div class="blog-slider__title"> Woori Bank's Chatbot Personalization Recommendation System </div>
+              <div class="blog-slider__text">
+                > Development API modules of personalization recommendation logic using javascript
+                <div>> Designed of chatbot model</div>
+              </div>
+              <a href="https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC-won-%EB%B1%85%ED%82%B9/id1470181651"
+                target="_blank" class="button blog-slider__button button--flex">
+                App
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- For portfolio item 2 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./img/chatbot.jpg" alt="Portfolio item">
+            </div>
+
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> 2021 </span>
+              <div class="blog-slider__title"> KB Chatbot Conversation flow Modeler </div>
+              <div class="blog-slider__text"> Analysis of financial consultation history data
+                <div>Designed chat flow and development intents </div>
+              </div>
+
+              <a href="https://apps.apple.com/kr/app/kb%EC%8A%A4%ED%83%80%EB%B1%85%ED%82%B9/id373742138" target="_blank"
+                class="button blog-slider__button button--flex">
+                App
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- For portfolio item 3 -->
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="./img/aa.JPG" alt="Portfolio item">
+            </div>
+
+            <div class="blog-slider__content">
+              <span class="blog-slider__code"> September 2022 </span>
+              <div class="blog-slider__title"> Architecture Agency </div>
+              <div class="blog-slider__text"> Designed UI/UX</div>
+              <a href="https://ooyuo.github.io/ArchitectureAgency/" target="_blank"
+                class="button blog-slider__button button--flex">
+                Website
+                <i class="uil uil-play button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="blog-slider__pagination"></div>
+        </div>
+      </div>
 
     </section>
-    <!---------------- CONTACT US ---------------->
+
+    <!-- ------------- CONTACT US -------------------->
     <section class="contact section" id="contact">
+      <h2 class="section__title"> Contact Me </h2>
+      <span class="section__subtitle"> Get in touch</span>
 
+      <div class="row mt-lg-6 justify-content-center contact_mail">
+        <!-- Contact information -->
+        <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">+1 (647) 334-1962</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">E-mail</h3>
+              <span class="contact__subtitle">doyounjeong0@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-location-pin-alt contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Address</h3>
+              <span class="contact__subtitle"> 24 Colleen St, Vaughan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+          <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
+
+          <form action="#" method="POST" class="cf">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" name="message-name" class="form-control form__color mb-30 cf"
+                  placeholder="Your Name">
+              </div>
+              <div class="col-lg-6">
+                <input type="email" name="message-email" class="form-control form__color mb-30 cf"
+                  placeholder="Your Email">
+              </div>
+              <div class="col-12">
+                <input type="text" name="message-subject" class="form-control form__color mb-30 cf"
+                  placeholder="Subject">
+              </div>
+              <div class="col-12">
+                <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5"
+                  placeholder="Your Message"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="button button--flex send-message form_button">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
-
   </main>
-  <!---------------- FOOTER ---------------->
-  <footer class="footer">
 
+  <!-- ------------- FOOTER -------------------->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+
+        <div>
+          <h1 class="footer__title"> Doyoun Jung </h1>
+          <span class="footer__subtitle"> Front-end Developer and JavaScript Developer </span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link"> About Me</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="footer__link"> My Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer__link"> Contact Me</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/doyunjeong/" target="_blank" class="footer__social" id="myLinkedIn">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+
+          <a href="https://github.com/ooyuo" target="_blank" class="footer__social" id="myGithub">
+            <i class="uil uil-github-alt"></i>
+          </a>
+
+          <a href="https://ooyuolog.tistory.com/" target="_blank" class="footer__social" id="myFacebook">
+            <i class="uil uil-blogger"></i>
+          </a>
+
+        </div>
+      </div>
+
+
+    </div>
   </footer>
 
+
+  <!-- ------------- SCROLL TOP -------------------->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
 
 
 
@@ -145,6 +939,6 @@
 
   <!-- Self Script -->
   <script src="js/script.js"></script>
-  </body>
+</body>
 
 </html>
